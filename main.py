@@ -12,7 +12,7 @@ with col1:
    st.title('Hjem fra Rubrik')
 
 with col2:
-   st.image('https://vigeur.dk/img/logo/metalogo.png', width=150)
+   st.image('https://vigeur.dk/img/logo/metalogo.png', width=250)
 
 st.write('Hvor positive er vores rubrikker?')
 option = st.selectbox(
