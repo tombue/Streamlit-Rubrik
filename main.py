@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from sentida import Sentida
 SV = Sentida()
 
-st.image('https://vigeur.dk/img/logo/metalogo.png')
+st.image('https://vigeur.dk/img/logo/metalogo.png', width=100)
 st.title('Hjem fra Rubrik')
 st.write('Hvor positive er vores rubrikker?')
 option = st.selectbox(
