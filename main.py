@@ -9,11 +9,11 @@ SV = Sentida()
 st.image('https://vigeur.dk/img/logo/metalogo.png')
 st.title('Hjem fra Rubrik')
 st.write('Hvor positive er vores rubrikker?')
-option = st.selectbox(
+optionFront = st.selectbox(
     'Forside',
     ('Vigeur', 'Nordjyske', 'LigeHer.nu'), label_visibility="hidden")
 
-match option:
+match optionFront:
     case "Vigeur":
         url='https://www.vigeur.dk'
         hlStyle = 'h2'
