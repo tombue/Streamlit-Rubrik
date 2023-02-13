@@ -8,9 +8,9 @@ SV = Sentida()
 
 col1, col2 = st.columns(2)
 
-with col1:
+   with col1:
 
-with col2:
+   with col2:
    st.image('https://vigeur.dk/img/logo/metalogo.png', width=120)
 
 st.title('Hjem fra Rubrik')
