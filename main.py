@@ -13,6 +13,8 @@ option = st.selectbox(
     'Forside',
     ('Vigeur', 'Nordjyske', 'LigeHer.nu'), label_visibility="hidden")
 
+option = "Vigeur"
+
 match option:
     case "Vigeur":
         url='https://www.vigeur.dk'
