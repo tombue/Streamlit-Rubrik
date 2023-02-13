@@ -1,0 +1,6 @@
+streamlit==1.18.0
+pandas==1.4.4
+numpy==1.23.2
+bs4==4.11.2
+sentida==0.6.0
+requests==2.28.2
